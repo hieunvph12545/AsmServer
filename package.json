@@ -1,0 +1,17 @@
+{
+  "name": "serverasm",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "abc"
+  ],
+  "author": "Hieunv",
+  "license": "ISC",
+  "dependencies": {
+    "express-handlebars": "^5.3.0"
+  }
+}
