@@ -4,8 +4,9 @@ var expressHDS=require('express-handlebars')
 var path = require("path");
 var app= express()
 
-app.use(express.static(path.join(__dirname, '/assets')));
+app.use(express.static(path.join(__dirname, 'assets')));
 console.log(app.use(express.static(path.join(__dirname, '/assets'))))
+
 app.engine('handlebars',expressHDS({
     layoutsDir: __dirname +'/views/layouts',
     defaultLayout:'main'
