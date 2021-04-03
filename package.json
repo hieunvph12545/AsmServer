@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index"
   },
   "keywords": [
     "abc"
@@ -12,6 +12,7 @@
   "author": "Hieunv",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "express-handlebars": "^5.3.0"
   }
 }
