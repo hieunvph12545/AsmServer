@@ -4,7 +4,7 @@ var expressHDS=require('express-handlebars')
 var path = require("path");
 var app= express()
 
-app.use(express.static(path.join(__dirname, '/')));
+app.use(express.static(path.join(__dirname, '')));
 app.engine('handlebars',expressHDS({
     layoutsDir: __dirname +'/views/layouts',
     defaultLayout:'main'
@@ -16,7 +16,5 @@ app.get('/',function (request,reqonse){
 
     reqonse.render('home');
 })
-app.post('/login',function (request,response){
 
-})
 app.listen(process.env.PORT || '3000')
